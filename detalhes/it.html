@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+<!--BARRA DE NAVEGACAO-->
+       <header>
+            <nav class="navbar navbar-inverse navbar-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../e-livraria.html">E-Livraria</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="../e-livraria.html">Home</a></li>
+            <li><a href="#livros">Livros</a></li>
+            <li><a href="../contato/contato.html">Contato</a></li>
+          </ul>
+          <!-- search bar -->
+          <form method="POST" action="../detalhes/resultado-busca.html" class="navbar-form navbar-right" role="search">
+             <div class="form-group">
+            <input type="text" class="form-control" placeholder="Harry Potter">
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+       </header>
+     <!--FIM DA BARRA DE NEVEGACAO -->
+
+
+
+     <div class="container" id="fundo">
+            <div class="row">
+               <div class="col-xs-4 item-photo">
+                    <img id="imagem" src="../img/produtos/Originals/it.jpg" />
+                </div>
+                <div class="col-xs-5">
+                    <!-- Datos del vendedor y titulo del producto -->
+                    <h3>It - A coisa</h3>    
+                    <h5 sclass="vendascor">vendido por <a href="#">Suma De Letras</a> · <small sclass="vendascor">(5054 ventas)</small></h5>
+        
+                    <!-- Precios -->
+                    <h6 class="title-price"><small class="riscar">De: R$ 87,90</small></h6>
+                    <h3 class="real-price">Por: R$ 47,71</h3>
+        
+                    <!-- Detalles especificos del producto -->
+                    <div class="section">
+                        <h6 class="title-attr"><small></small></h6>                    
+                        <div>
+                            <div class="attr"></div>
+                            <div class="attr"></div>
+                        </div>
+                    </div>
+                      
+                    <div class="section" id="quantidade">
+                        <h6 class="title-attr"><small>QUANTIDADE</small></h6>                    
+                        <div>
+                            <div class="btn-minus"><span class="glyphicon glyphicon-minus"></span></div>
+                            <input value="1" />
+                            <div class="btn-plus"><span class="glyphicon glyphicon-plus"></span></div>
+                        </div>
+                    </div>                
+        
+                    <!-- Botones de compra -->
+                    <div class="section" id="carrinho">
+                        <button class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Adicionar ao carrinho</button>
+                        <h6><a href="#"><span class="glyphicon glyphicon-heart-empty" id="desejos"></span>Adicionar a lista de desejos</a></h6>
+                    </div>                                        
+                </div>                              
+        
+                <div class="col-xs-9">
+                    <ul class="menu-items">
+                        <li class="active">Detalhes do produto</li>
+                        
+                    </ul>
+                    <div id="sinopse">
+                        <p>
+                            <small>
+                            Durante as férias escolares de 1958, em Derry, pacata cidadezinha do Maine, Bill, Richie, Stan, Mike, Eddie, Ben e Beverly aprenderam o real sentido da amizade, do amor, da confiança e... do medo. O mais profundo e tenebroso medo. Naquele verão, eles enfrentaram pela primeira vez a Coisa, um ser sobrenatural e maligno que deixou terríveis marcas de sangue em Derry. Quase trinta anos depois, os amigos voltam a se encontrar. Uma nova onda de terror tomou a pequena cidade. Mike Hanlon, o único que permanece em Derry, dá o sinal. Precisam unir forças novamente. A Coisa volta a atacar e eles devem cumprir a promessa selada com sangue que fizeram quando crianças. Só eles têm a chave do enigma. Só eles sabem o que se esconde nas entranhas de Derry. O tempo é curto, mas somente eles podem vencer a Coisa. Em 'It - A Coisa', clássico de Stephen King em nova edição, os amigos irão até o fim, mesmo que isso signifique ultrapassar os próprios limites.
+
+                            </small>
+                        </p>
+                        <small>
+                            <ul>
+                                <li>PESO:    1.452 Kg</li>
+                                <li>PRODUTO SOB ENCOMENDA:   Sim</li>
+                                <li>MARCA:   Suma De Letras</li>
+                                <li>I.S.B.N.:    9788560280940</li>
+                                <li>ALTURA:  23.00 cm</li>
+                                <li>LARGURA: 16.00 cm</li>
+                                <li>PROFUNDIDADE:    5.20 cm</li>
+                                <li>NÚMERO DE PÁGINAS:   1104</li>
+                                <li>IDIOMA:  Português</li>
+                                <li>ACABAMENTO:  Brochura</li>
+                                <li>CÓD. BARRAS: 9788560280940</li>
+                                <li>NÚMERO DA EDIÇÃO:    1</li>
+                                <li>ANO DA EDIÇÃO:   2014</li>
+                                
+                            </ul>  
+                        </small>
+                    </div>
+                </div>      
+            </div>
+        </div>        
+
+        <!-- Footer -->
+        <<footer>
+    <address>
+      <strong>E-Livraria</strong><br>
+      Av. Sen. Salgado Filho, 1559 - Tirol<br>
+      Natal, RN<br>
+      Tel: (84) 3212-7612
+    </address>
+    <address>
+      E-mail: e-livraria@email.com.br
+    </address>
+  </footer>
+    <!-- /.container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessário para os plugins Javascript Bootstrap) -->
+       <script src="../js/jquery.js"></script>
+       <script src="../js/bootstrap.min.js"></script>
+     </body>
+</html>

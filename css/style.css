@@ -1,0 +1,271 @@
+body {
+    background: url('../bg/bg2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.riscar {
+    text-decoration: line-through;
+
+}
+
+
+
+/* !!! ---- INICIO DOS PRODUTOS ----- !!!*/
+div.row {
+    margin-top: 50px;
+    margin: 10px;
+}
+
+
+.main-section {
+    background-color: #f1f1f1;
+    padding: 20px 20px 0px 20px;
+}
+
+.image-main-section {
+    margin-bottom: 10px;
+}
+
+.img-part {
+    border-radius: 5px;
+    margin: 0px;
+    border: 1px solid #DDDDDD;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.img-section {
+    padding: 5px;
+}
+
+.img-section img {
+    width: 100%;
+}
+
+.image-title h3 {
+    margin: 0px;
+    color: #4C4C4C;
+    padding: 15px 0px 8px 0px;
+}
+
+.image-description p {
+    color: #848484;
+}
+
+.add-cart-btn {
+    border-radius: 0px;
+    font-size: 11px;
+}
+
+/* !!! ----- FIM DOS PRODUTOS ----- !!! */
+
+/* modal */
+@media (max-width: @screen-xs-min) {
+    .modal-dialog {
+        width: @modal-lg;
+    }
+}
+
+
+/* !!!!!! ------ DETALHES PRODUTOS -------- !!!!!! */
+
+ul>li {
+    margin-right: 25px;
+    font-weight: lighter;
+    cursor: pointer
+}
+
+
+.item-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #f6f6f6;
+}
+
+.menu-items {
+    list-style-type: none;
+    font-size: 11px;
+    display: inline-flex;
+    margin-bottom: 0;
+    margin-top: 20px
+}
+
+.btn-success {
+    width: 100%;
+    border-radius: 0;
+}
+
+.section {
+    width: 100%;
+    margin-left: -15px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #f8f9f9
+}
+
+.title-price {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: black
+}
+
+.title-attr {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+
+.btn-minus {
+    cursor: pointer;
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    border-right: 0;
+}
+
+.btn-plus {
+    cursor: pointer;
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    border-left: 0;
+}
+
+div.section>div {
+    width: 100%;
+    display: inline-flex;
+}
+
+div.section>div>input {
+    margin: 0;
+    padding-left: 5px;
+    font-size: 10px;
+    padding-right: 5px;
+    max-width: 18%;
+    text-align: center;
+}
+
+#fundo {
+    background-color: white;
+}
+
+div.col-xs-5 {
+    border: 0px solid gray;
+}
+
+h5.vendascor {
+    color: #337ab7;
+}
+
+h3.real-price {
+    margin-top: 0;
+}
+
+h6.title-attr {
+    margin-top: 15px;
+}
+
+div.attr {
+    width: 25px;
+    background: #5a5a5a;
+}
+
+#quantidade {
+    padding-bottom: 20px;
+}
+
+#carrinho {
+    padding-bottom: 20px;
+}
+
+#desejos {
+    cursor: pointer;
+}
+
+#sinopse {
+    width: 100%;
+    border-top: 1px solid silver;
+}
+
+#sinopse p {
+    padding: 15px;
+}
+
+#imagem {
+    max-width: 100%;
+}
+
+@media (max-width: 426px) {
+    .container {
+        margin-top: 0px !important;
+    }
+
+    .container>.row {
+        padding: 0 !important;
+    }
+
+    .container>.row>.col-xs-12.col-sm-5 {
+        padding-right: 0;
+    }
+
+    .container>.row>.col-xs-12.col-sm-9>div>p {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .container>.row>.col-xs-12.col-sm-9>div>ul {
+        padding-left: 10px !important;
+
+    }
+
+    .section {
+        width: 104%;
+    }
+
+    .menu-items {
+        padding-left: 0;
+    }
+}
+
+/* !!!!!!!!!!------ FIM DETALHES PRODUTOS ----- !!!!!!!!!! */
+
+
+/* !!!!!! ---- MAPA !!!!!!!  */
+
+
+
+
+
+
+
+
+
+
+/*!!!! ---- FOOTER ------ !!!!!!!*/
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}

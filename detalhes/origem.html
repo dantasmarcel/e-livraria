@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+<!--BARRA DE NAVEGACAO-->
+       <header>
+            <nav class="navbar navbar-inverse navbar-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../e-livraria.html">E-Livraria</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="../e-livraria.html">Home</a></li>
+            <li><a href="#livros">Livros</a></li>
+            <li><a href="../contato/contato.html">Contato</a></li>
+          </ul>
+          <!-- search bar -->
+          <form method="POST" action="../detalhes/resultado-busca.html" class="navbar-form navbar-right" role="search">
+             <div class="form-group">
+            <input type="text" class="form-control" placeholder="Harry Potter">
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+       </header>
+     <!--FIM DA BARRA DE NEVEGACAO -->
+
+
+
+     <div class="container" id="fundo">
+            <div class="row">
+               <div class="col-xs-4 item-photo">
+                    <img id="imagem" src="../img/produtos/Originals/aorigem.jpg" />
+                </div>
+                <div class="col-xs-5">
+                    <!-- Datos del vendedor y titulo del producto -->
+                    <h3>Origem</h3>    
+                    <h5 class="vendascor">vendido por <a href="#">Arqueiro</a> · <small class="vendascor">(9204 ventas)</small></h5>
+        
+                    <!-- Precios -->
+                    <h6 class="title-price"><small class="riscar">De: R$ 49,90</small></h6>
+                    <h3 class="real-price">Por: R$ 27,81</h3>
+        
+                    <!-- Detalles especificos del producto -->
+                    <div class="section">
+                        <h6 class="title-attr"><small></small></h6>                    
+                        <div>
+                            <div class="attr"></div>
+                            <div class="attr"></div>
+                        </div>
+                    </div>
+                      
+                    <div class="section" id="quantidade">
+                        <h6 class="title-attr"><small>QUANTIDADE</small></h6>                    
+                        <div>
+                            <div class="btn-minus"><span class="glyphicon glyphicon-minus"></span></div>
+                            <input value="1" />
+                            <div class="btn-plus"><span class="glyphicon glyphicon-plus"></span></div>
+                        </div>
+                    </div>                
+        
+                    <!-- Botones de compra -->
+                    <div class="section" id="carrinho">
+                        <button class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Adicionar ao carrinho</button>
+                        <h6><a href="#"><span class="glyphicon glyphicon-heart-empty" id="desejos"></span>Adicionar a lista de desejos</a></h6>
+                    </div>                                        
+                </div>                              
+        
+                <div class="col-xs-9">
+                    <ul class="menu-items">
+                        <li class="active">Detalhes do produto</li>
+                        
+                    </ul>
+                    <div id="sinopse">
+                        <p>
+                            <small>
+                            De Onde Viemos? Para Onde Vamos? Robert Langdon, o famoso professor de Simbologia de Harvard, chega ao ultramoderno Museu Guggenheim de Bilbao para assistir a uma apresentação sobre uma grande descoberta que promete “mudar para sempre o papel da ciência”. O anfitrião da noite é o futurólogo bilionário Edmond Kirsch, de 40 anos, que se tornou conhecido mundialmente por suas previsões audaciosas e invenções de alta tecnologia. Um dos primeiros alunos de Langdon em Harvard, há 20 anos, agora ele está prestes a revelar uma incrível revolução no conhecimento… algo que vai responder a duas perguntas fundamentais da existência humana. Os convidados ficam hipnotizados pela apresentação, mas Langdon logo percebe que ela será muito mais controversa do que poderia imaginar. De repente, a noite meticulosamente orquestrada se transforma em um caos, e a preciosa descoberta de Kirsch corre o risco de ser perdida para sempre. Diante de uma ameaça iminente, Langdon tenta uma fuga desesperada de Bilbao ao lado de Ambra Vidal, a elegante diretora do museu que trabalhou na montagem do evento. Juntos seguem para Barcelona à procura de uma senha que ajudará a desvendar o segredo de Edmond Kirsch. Em meio a fatos históricos ocultos e extremismo religioso, Robert e Ambra precisam escapar de um inimigo atormentado cujo poder de saber tudo parece emanar do Palácio Real da Espanha. Alguém que não hesitará diante de nada para silenciar o futurólogo. Numa jornada marcada por obras de arte moderna e símbolos enigmáticos, os dois encontram pistas que vão deixá-los cara a cara com a chocante revelação de Kirsch… e com a verdade espantosa que ignoramos durante tanto tempo.
+                            </small>
+                        </p>
+                        <small>
+                            <ul>
+                                <li>PESO:    0.580 Kg</li>
+                                <li>PRODUTO SOB ENCOMENDA:   Sim</li>
+                                <li>MARCA:   Arqueiro</li>
+                                <li>I.S.B.N.:    9788580417661</li>
+                                <li>ALTURA:  23.00 cm</li>
+                                <li>LARGURA: 16.00 cm</li>
+                                <li>PROFUNDIDADE:    2.00 cm</li>
+                                <li>NÚMERO DE PÁGINAS:   432</li>
+                                <li>IDIOMA:  Português</li>
+                                <li>ACABAMENTO:  Brochura</li>
+                                <li>CÓD. BARRAS: 9788580417661</li>
+                                <li>NÚMERO DA EDIÇÃO:    1</li>
+                                <li>ANO DA EDIÇÃO:   2017</li>
+                                
+                            </ul>  
+                        </small>
+                    </div>
+                </div>      
+            </div>
+        </div>        
+
+        <!-- Footer -->
+        <<footer>
+    <address>
+      <strong>E-Livraria</strong><br>
+      Av. Sen. Salgado Filho, 1559 - Tirol<br>
+      Natal, RN<br>
+      Tel: (84) 3212-7612
+    </address>
+    <address>
+      E-mail: e-livraria@email.com.br
+    </address>
+  </footer>
+    <!-- /.container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessário para os plugins Javascript Bootstrap) -->
+       <script src="../js/jquery.js"></script>
+       <script src="../js/bootstrap.min.js"></script>
+     </body>
+</html>
